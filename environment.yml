@@ -1,0 +1,10 @@
+name: venv
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - flask=2.0.3
+  - requests=2.26.0
+  - Flask-SQLAlchemy
+  - pandas
+  - xlsxwriter

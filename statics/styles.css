@@ -1,0 +1,60 @@
+/* Apply Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.table {
+    font-size: 0.9rem;
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table td, .table th {
+    text-align: center;
+}
+
+.shadow-lg {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}

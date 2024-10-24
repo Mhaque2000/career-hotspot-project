@@ -1,0 +1,28 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Database Files
+*.sqlite
+
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+*.swp
+
+# User-Specific Configuration
+.DS_Store
+Thumbs.db
+
+# Build Artifacts
+/build/
+
+requirements.txt
